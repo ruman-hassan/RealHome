@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+
+
+}
+.logo{
+  /*background-color: #c19A6B;*/
+  padding:20px;
+  text-align: center;
+}
+
+.formone h3{
+		font-size:30px;
+		text-align:center;
+		padding-left:15px;
+		margin:10px 0;
+		margin-top:5px;
+		
+	}
+
+
+div{
+	text-align: center;
+}
+
+table{
+	
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #a97045}
+
+
+th {
+  background-color: #80471c;
+  color: white;
+}
+
+
+td{
+
+	background-color: auto;
+	border: 2.5px solid;
+	padding: 15px;
+}
+
+thead th{
+	width: 1%;
+}
+.button{
+
+border-radius: 15px;
+  background-color:#c19A6B ;
+  color: black;
+  border: 2px solid;
+  width: 150px;
+  height: 50px;
+}
+.button:hover {
+  background-color: #c19A6B;
+  color: white;
+}
+.centre-form{
+
+  display:flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+input[type=text], input[type=password], input[type=mail],input[type=date],input[type=file]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #d4c9b0;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color:#c19A6B;
+  outline: none;
+}

@@ -1,0 +1,12 @@
+body{
+	text-align: center;
+	font-family:Helvetica, serif;
+}
+
+a{
+	padding:30px 100px 30px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}

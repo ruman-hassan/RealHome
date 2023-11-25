@@ -1,0 +1,21 @@
+body{
+	text-align: center;
+	font-family:Helvetica, serif;
+	background-color:#61a6ab;
+	font-color:white;
+}
+
+a{
+	padding:30px 100px 30px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+ul,li{
+	list-style-type: none;
+
+}
+.icon{
+	padding:30px 30px;
+}

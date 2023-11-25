@@ -1,0 +1,43 @@
+body{
+	
+	font-family:Helvetica,serif;
+}
+a:link,a:visited{
+	text-decoration:none;
+	color:black;
+}
+a{
+	padding:35px;
+	color:black;
+	font-size:110%;
+}
+
+input, select{
+	width: 30%;
+  padding: 12px 20px;
+  background-color:white;
+font-family:Helvetica, serif;
+color:black;
+text-align:center;
+margin:10px;
+}
+ul,li{
+	list-style-type: none;
+
+}
+.icon{
+	padding:30px 130px 30px;
+}
+.mid{
+	text-align: center;
+}
+button{
+	border-radius:7px;
+	
+	color:black;
+	text-align:center;
+	text-decoration:none;
+	border:none;
+	padding: 10px 25px;
+   border:black;
+}

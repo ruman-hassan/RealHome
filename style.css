@@ -1,0 +1,115 @@
+*{
+	margin:0;
+	padding:0;
+	text-align: center;
+	font-family:Helvetica, serif;
+	
+}
+
+.container{
+margin: 0 auto;
+width: 100%;
+background: #F8F8F8;
+font-family: Montserrat;
+border-style: None;
+ border-color: #F8F8F8;
+	
+	
+}
+.navbar{
+position: relative;
+  display: inline-block;
+	
+}
+
+.logo{
+		padding:15px;
+	float:left;
+}
+.menu{
+	width:100px;
+	float:right;
+	height:30px;
+}
+ .menu a{
+	  text-decoration:none;
+	  color:#000080;
+	  font-family:arial;
+	  font-weight:bold;
+	  transition:0.4s ease-in-out;
+  }
+  .menu-bar{
+  	display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  }
+     .menu:hover .menu-bar{
+	display: block;
+	}
+	.formone h3{
+		font-size:30px;
+		text-align:center;
+		padding-left:15px;
+		margin:10px 0;
+		margin-top:5px;
+		
+	}
+
+
+
+body{
+	
+	text-align: center;
+	font-family:Helvetica, serif;
+}
+
+a{
+	padding:30px 100px 30px;
+}
+table, th, td {
+  border-collapse:collapse;
+border: 2px solid #4a8d19;
+text-align:center;
+margin-right: auto;
+margin-left: auto;
+}
+th
+{
+padding:10px;
+}
+td
+{
+padding:10px;
+text-align:center;
+color:#000000;
+}
+.icon{
+	padding:30px 30px;
+}
+input, select{
+	width: 30%;
+  padding: 12px 20px;
+  background-color:white;
+font-family:Helvetica, serif;
+color:black;
+text-align:center;
+margin:0 auto;
+}
+button{
+	border-radius:7px;
+	
+	color:black;
+	text-align:center;
+	text-decoration:none;
+	border:none;
+	padding: 10px 25px;
+   border:black;
+}
+a:link,a:visited{
+	text-decoration:none;
+	color:black;
+}
